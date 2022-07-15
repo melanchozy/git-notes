@@ -73,4 +73,11 @@ melanchozy
    git push -u origin master
    ```
 
-   
+#### *tips
+
+1. 修改仓库指向
+
+   ```bash
+   git remote set-url origin git@github.com:melanchozy/git-notes.git
+   ```
+
