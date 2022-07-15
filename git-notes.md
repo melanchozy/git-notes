@@ -91,4 +91,10 @@ melanchozy
    .git
    ```
 
+3. 查看远程指向
+
+   ```sh
+   git remote show origin
+   ```
+
    
