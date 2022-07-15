@@ -81,3 +81,14 @@ melanchozy
    git remote set-url origin git@github.com:melanchozy/git-notes.git
    ```
 
+2. 忽略不上传的文件
+
+   ```bash
+   touch .gitignore
+   vim .gitignore
+   
+   .gitignore
+   .git
+   ```
+
+   
