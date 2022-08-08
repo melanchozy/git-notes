@@ -75,26 +75,33 @@ melanchozy
 
 #### *tips
 
-1. 修改仓库指向
+##### 1. 修改仓库指向
 
-   ```bash
-   git remote set-url origin git@github.com:melanchozy/git-notes.git
-   ```
+```bash
+git remote set-url origin git@github.com:melanchozy/git-notes.git
+```
 
-2. 忽略不上传的文件
+##### 2. 忽略不上传的文件
 
-   ```bash
-   touch .gitignore
-   vim .gitignore
-   
-   .gitignore
-   .git
-   ```
+```bash
+touch .gitignore
+vim .gitignore
 
-3. 查看远程指向
+.gitignore
+.git
+```
 
-   ```sh
-   git remote show origin
-   ```
+##### 3. 查看远程指向
 
-   
+```sh
+git remote show origin
+```
+
+##### 4. 拉取远程仓库最新代码并覆盖本地
+
+```bash
+git fetch --all
+git reset --hard origin/master
+git pull
+```
+
